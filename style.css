@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-.root{
-
+:root{
+    --black: rgb(41, 40, 40);
+    --gray: rgb(153, 151, 151);
+    --blue: rgb(90,150,217) ;
+    --blue-faint: rgba(90, 149, 217, 0.17) ;
+    --white: whitesmoke;
 }
 
 *{
@@ -61,7 +65,7 @@ a{
 }
 
 .link-active{
-    color:black;
+    color: var(--black);
 }
 
 .main{
@@ -124,3 +128,9 @@ a{
 }
 
 
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+    padding-inline-start: 0px;
+    margin:auto;
+}

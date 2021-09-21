@@ -67,7 +67,7 @@ a{
 }
 
 .link-active{
-    color:black;
+    color: var(--black);
 }
 
 .social-btn{
