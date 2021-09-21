@@ -2,7 +2,7 @@
 
 :root{
     --black: rgb(41, 40, 40);
-    --gray: rgb(153, 151, 151);
+    --gray: rgb(187, 184, 184);
     --blue: rgb(90,150,217) ;
     --blue-faint: rgba(90, 149, 217, 0.17) ;
     --white: whitesmoke;
@@ -63,7 +63,7 @@ a{
 }
 
 .nav-link:hover{
-    color: rgb(41, 40, 40);
+    color: var(--black);
 }
 
 .link-active{
@@ -77,7 +77,7 @@ a{
 }
 
 .social-btn .link:hover{
-    color: rgb(41, 40, 40);
+    color: var(--black);
 }
 
 .heading{
@@ -135,7 +135,7 @@ a{
 .link-btn{
     
     padding: 0.5rem;
-    color: rgb(41, 40, 40);
+    color: var(--black);
     font-size: 1.15rem;
     font-weight: 400;
 }
@@ -186,11 +186,11 @@ a{
 }
 
 .social-btn .link:hover{
-    color: rgb(41, 40, 40);
+    color: var(--black);
 }
 
 .footer p{
-    color: rgb(41, 40, 40);
+    color: var(--black);
     font-size: 1.3rem;
     font-weight: 450;
     margin: 0.3rem;

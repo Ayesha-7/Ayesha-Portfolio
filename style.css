@@ -2,7 +2,7 @@
 
 :root{
     --black: rgb(41, 40, 40);
-    --gray: rgb(153, 151, 151);
+    --gray: rgb(187, 184, 184);
     --blue: rgb(90,150,217) ;
     --blue-faint: rgba(90, 149, 217, 0.17) ;
     --white: whitesmoke;
@@ -31,14 +31,14 @@ body{
 }
 
 .home-link{
-    color: whitesmoke;
+    color: var(--white);
     padding: 1rem;
 }
 
 a{
     text-decoration: none;
     cursor: pointer;
-    color: whitesmoke;
+    color: var(--white);
 }
 
 .navigation{
@@ -49,7 +49,7 @@ a{
     display: flex;
     justify-content: center;
     list-style-type: none;
-    color: whitesmoke;
+    color: var(--white);
 }
 
 .nav-item{
@@ -57,11 +57,11 @@ a{
     font-weight: 600;
     margin: 0 14px;
     padding: 10px;
-    color: whitesmoke;
+    color: var(--white);
 }
 
 .nav-link:hover{
-    color: rgb(41, 40, 40);
+    color: var(--black);
 }
 
 .link-active{
@@ -73,7 +73,7 @@ a{
 }
 
 .about{
-    color: rgb(41, 40, 40);
+    color: var(--black);
     text-align: left;
     /* top: 50%;
     left: 50%; */
@@ -103,7 +103,7 @@ a{
 }
 
 .social-btn .link:hover{
-    color: rgb(41, 40, 40);
+    color: var(--black);
 }
 
 .explore{
@@ -114,17 +114,17 @@ a{
 }
 
 .explore-btn{
-    background-color: whitesmoke;
+    background-color: var(--white);
     border-radius: 0.5rem;
     padding: 0.5rem;
-    color: rgb(41, 40, 40);
+    color: var(--black);
     font-size: 1.5rem;
     font-weight: 400;
 }
 
 .explore-btn:hover {
 
-    background-color: rgb(153, 151, 151);
+    background-color: var(--gray);
 }
 
 
