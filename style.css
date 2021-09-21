@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 .root{
 
@@ -60,11 +60,15 @@ a{
     color: rgb(41, 40, 40);
 }
 
+.link-active{
+    color:black;
+}
+
 .main{
     text-align: center;
 }
 
-.about-text{
+.about{
     color: rgb(41, 40, 40);
     text-align: left;
     /* top: 50%;
@@ -77,6 +81,9 @@ a{
     width: 40%;
 }
 
+.about h4{
+    font-weight: 400;
+}
 .socials{
     margin: auto;
     text-align: center;
@@ -108,69 +115,12 @@ a{
     padding: 0.5rem;
     color: rgb(41, 40, 40);
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .explore-btn:hover {
 
     background-color: rgb(153, 151, 151);
 }
-/* .header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: url(/images/james-wainscoat-DoLb7nZvv-k-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-a{
-    text-decoration: none;
-}
-
-ul{
-    text-decoration: none;
-}
-
-.nav-brand{
-    float: left;
-    display: block;
-}
-
-.nav-links{
-    float: right;
-}
- */
 
 
-/* 
-.navigation{
-    padding: 1rem;
-
-}
-
-.navigation .nav-brand{
-    display: block;
-    padding: 1rem;
-    font-size: 1.7rem;
-    color: whitesmoke;
-}
-
-.navigation .nav-pills{
-    display: inline;
-    font-size: 1.3rem;
-    text-align: right;
-    color: whitesmoke;
-}
-
-.navigation .link{
-    color: whitesmoke;
-    text-align: right;
-}
-
-.item-inline{
-    display: inline;
-}
-
-.nav-links{
-    text-align: right;
-} */
