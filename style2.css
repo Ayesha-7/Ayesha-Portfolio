@@ -28,6 +28,9 @@ body{
     justify-content: space-between;
     padding: 0.4rem;
     background-image: url(/images/james-wainscoat-DoLb7nZvv-k-unsplash.jpg);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     /* background-size: cover;
     background-repeat: no-repeat; */
 }
@@ -81,8 +84,8 @@ a{
 }
 
 .heading{
-    font-size: 2rem;
-    max-width: 570px;
+    font-size: 1.7rem;
+    width: 590px;
     margin: auto;
     display: block;
     text-align: center;
